@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.headers{
+    display: flex;
+    justify-content: space-between;
+    background-color: plum;
+    border: solid black 1px;
+}
+.heading{
+    margin: 10px;
+    padding: 4px;
+}
+.navbar{
+    margin: 5px;
+    padding: 3px;
+    display: flex;
+}
+.nav-items{
+    margin: 10px;
+    padding: 7px;
+}
+.search{
+    border-radius: 15px;
+    height: 30px;
+    width: 250px;
+
+}
+.search:hover{
+    background: lightgray;
+}
+.searchname{
+    font-size: large;
+    margin-top: 14px;
+    padding: 6px;
+}
+
+.nav-items:hover{ 
+font-size: larger;
+cursor: pointer;
+}
+.anime-cards{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards{
+    margin: 16px;
+    width: 200px;
+    height: 250px;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+.card{
+    width: 200px;
+    height: 250px;
+}
+.card:hover{
+    cursor: pointer;
+    border-radius: 8px;
+}
+.cards:hover{
+    border: solid black 2px;
+    border-radius: 8px;
+}
+.login-button{
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin-top: 14px;
+}
+.login-button:hover{
+    background-color: hotpink;
+    font-size: larger;
+}
+.wallpapers1{
+    font:bolder;
+    margin: 10px;
+    padding: 3px;
+    font-size: x-large;
+    font-display: inherit;
+    width: 220px;
+    border: solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    animation: mymove 5s infinite;
+    background-color: lightcyan;
+    
+}
+
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
